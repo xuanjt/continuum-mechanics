@@ -1,0 +1,55 @@
+---
+title: "continumm-physics-notes"
+author: "Jingxuan Tian"
+format: html
+toc: true
+number-sections: true
+fontsize: 14pt
+---
+
+## What is continumm physics?
+
+Bodies that can be considered to be continuous. Physical quantities that are described by continuous mathematical functions.
+
+1. Mechanics: solids, fluids.
+2. Transport.
+
+- **Continumm Mechanics**
+
+1. Rigid Bodies
+2. Deformable Bodies
+$M = \sum_{i} m_i$
+$F_g = \sum_{i} m_i \underline{g}$
+
+- **What do we concern?**
+
+3D space occupied by the body $\mathcal{B}$ as $\int_{\Omega} \in \mathbb{R}^3$
+
+We represent a partical in $\mathcal{B}$ with its position in the coordinates $\underline{x} = (x_1, x_2, x_3)$.
+
+- compute mass of the body
+$$
+M = \int_{\Omega} \rho(\underline{x}) dV
+$$
+
+- compute gravity of the body
+$$
+F_g = \int_{\Omega} \rho(\underline{x})\underline{g} dV
+$$
+
+- **Three ingredients of continumm mechanics**
+
+1. *Kinematics*: The motion of the body (rigid or deformation) and analysis of motion and deformation.
+
+2. *Balance laws*: Balance of mass, Balance of linear and angular momentum, Balance of energy.
+
+3. *Constitutive laws*: The constitution of the material of the body. E.g. Stress-Strain laws, heat flux-temperature gradient laws
+
+## Vectors
+
+- Denotion: $\underline{w}, \underline{v}, \underline{u}$
+
+- An othonormal triad of vectors that are right-handed: ${\underline{e}_i}_{\left\{i=1,2,3\right\}}$
+
+  $\underline{e}_i \cdot \underline{e}_j = \delta_{ij}$
+
